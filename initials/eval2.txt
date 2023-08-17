@@ -1,0 +1,68 @@
+#We have 10 files
+originals/2_ Chap
+['age', 'amends', 'improve + prevent', 'emotions', 'hallucination']: 5
+
+originals/2_ Charl
+['age', 'amends', 'improve + prevent', 'hallucination']: 4
+
+originals/2_ Chlo
+[]: 0
+
+originals/2_ L
+['emotions', 'hallucination']: 2
+
+originals/2_ Lam
+['suffering', 'emotions', 'hallucination']: 3
+
+originals/2_ Mel
+[]: 0
+
+originals/2_ Novak
+Still none: coherence
+Still none: guilty plea
+Still none: irrelevant
+Still none: record
+Still none: mental
+Still none: explain
+Still none: amends
+Still none: character
+Still none: emotions
+New explanation for princ coherence :  The claim is satisfied.
+Princ not considered broken. coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written, non-repetitive, and easy to follow. It is structured and presents the information in a clear and concise manner.
+New explanation for princ guilty plea :  The claim is satisfied.
+Princ not considered broken. guilty plea
+Original answer:  The statement mentions that the defendant is pleading guilty: The statement does mention that the defendant is pleading guilty.
+New explanation for princ irrelevant :  The claim is satisfied.
+Princ not considered broken. irrelevant
+Original answer:  The statement does not contain any completely irrelevant information (eg it does not mention the 'input story' or another statement): The statement does not contain any irrelevant information. It sticks to the facts presented in the input story.
+New explanation for princ record :  The claim is satisfied.
+Princ not considered broken. record
+Original answer:  If the input story implies that the defendant has a clean record, this is mentioned in the statement. The statement does imply that the defendant has a clean record, if the input story cannot support this: The input story does imply that the defendant has a clean record, and this is mentioned in the statement.
+New explanation for princ mental :  The claim is satisfied.
+Princ not considered broken. mental
+Original answer:  If the input story states that the defendant has a mental illness or disability, this is included in the statement. If the input story says nothing about a mental illness or disability, no such thing is mentioned in the statement either: The input story does not mention a mental illness or disability, and neither does the statement.
+New explanation for princ explain :  The claim is satisfied.
+Princ not considered broken. explain
+Original answer:  The statement properly explains what the offense is and how it happened - as in the input story. It does not add or skip important parts from the input story: The statement properly explains the offense and how it happened, as per the input story.
+New explanation for princ amends :  The claim is satisfied.
+Princ not considered broken. amends
+Original answer:  If the input story states that the defendant wants to or has already made amends; this is included in the statement (including examples, if this is present in the input story). If amends (eg compensating the victim) is not mentioned in the input story, it is not mentioned in the statement: The input story does mention that the defendant has offered to pay for the rest of the victim's hospital bills, and this is included in the statement.
+New explanation for princ character :  The claim is satisfied.
+Princ not considered broken. character
+Original answer:  If the input story gives information that speaks to the defendant's good character, the statement includes this (including examples, if this is present in the input story). If no character-building information (eg voluntary work or contributing to society) is given in the input story, it is not mentioned in the statement either: The input story does not give information that speaks to the defendant's good character, and the statement does not mention this either.
+New explanation for princ emotions :  The claim is satisfied.
+Princ not considered broken. emotions
+Original answer:  The emotions in the statement is the same as the emotions stated in the input story. Eg the statement does not show more regret, guilt or anger than the input story: The emotions in the statement are the same as the emotions stated in the input story. The defendant expresses regret and remorse in both.
+['suffering', 'age', 'improve + prevent', 'hallucination']: 4
+
+originals/2_ O
+['character', 'emotions', 'hallucination']: 3
+
+originals/2_ P
+['age', 'record', 'improve + prevent', 'character', 'hallucination']: 5
+
+originals/2_ Palm
+['amends', 'improve + prevent', 'character', 'emotions', 'hallucination']: 5
+
+#Average nr penalties: 3.1
