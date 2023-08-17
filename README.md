@@ -3,7 +3,7 @@ Codebase for the thesis "LLM self-critique for task-oriented text generation". P
 
 Please note: this repo does not contain any keys for OpenAI that you would need to run parts of this code! Please insert your own key if you want to try out the code, or contact me.
 
-### Files that are not my own work:
+### PLEASE NOTE: Files that are not my own work:
 The files for fine-tuning: tune_a_v.py and tune_a_g4 are based on fine-tuning files from the Alpaca repository and from the Vicuna repository.
 
 Link to Alpaca repo: https://github.com/tloen/alpaca-lora
