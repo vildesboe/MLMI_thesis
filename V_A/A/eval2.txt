@@ -1,0 +1,40 @@
+#We have 10 files
+logs/oob_vicuna/A/A2_ Chap
+Still none: coherence
+New explanation for princ coherence :  The claim is not satisfied.
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written and easy to follow, but it is somewhat repetitive, particularly in the phrases "I fully acknowledge the seriousness of the offence and take responsibility for it."
+['age', 'record', 'mental', 'emotions', 'hallucination', 'coherence']: 6
+
+logs/oob_vicuna/A/A2_ Charl
+['character', 'hallucination']: 2
+
+logs/oob_vicuna/A/A2_ Chlo
+['age', 'amends', 'hallucination']: 3
+
+logs/oob_vicuna/A/A2_ L
+['character', 'emotions', 'hallucination']: 3
+
+logs/oob_vicuna/A/A2_ Lam
+['age']: 1
+
+logs/oob_vicuna/A/A2_ Mel
+['age', 'amends', 'improve + prevent', 'character', 'hallucination']: 5
+
+logs/oob_vicuna/A/A2_ Novak
+['age', 'amends', 'hallucination']: 3
+
+logs/oob_vicuna/A/A2_ O
+Still none: coherence
+New explanation for princ coherence :  No
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written and easy to follow, but it is slightly repetitive. For example, the phrase "This isolated incident does not define my character" is repeated twice.
+['age', 'coherence']: 2
+
+logs/oob_vicuna/A/A2_ P
+['age', 'amends', 'improve + prevent', 'character', 'hallucination']: 5
+
+logs/oob_vicuna/A/A2_ Palm
+['amends', 'improve + prevent', 'character', 'emotions']: 4
+
+#Average nr penalties: 3.4

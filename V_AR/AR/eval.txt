@@ -1,0 +1,32 @@
+#We have 10 files
+logs/oob_vicuna/AR/AR_ Chap
+['age', 'hallucination']: 2
+
+logs/oob_vicuna/AR/AR_ Charl
+['irrelevant', 'character', 'hallucination']: 3
+
+logs/oob_vicuna/AR/AR_ Chlo
+['guilty plea', 'irrelevant', 'age', 'explain', 'hallucination']: 5
+
+logs/oob_vicuna/AR/AR_ L
+['guilty plea', 'irrelevant', 'age', 'hallucination']: 4
+
+logs/oob_vicuna/AR/AR_ Lam
+['irrelevant', 'amends', 'improve + prevent', 'hallucination']: 4
+
+logs/oob_vicuna/AR/AR_ Mel
+['irrelevant', 'hallucination']: 2
+
+logs/oob_vicuna/AR/AR_ Novak
+['age', 'improve + prevent', 'character', 'hallucination']: 4
+
+logs/oob_vicuna/AR/AR_ O
+['amends', 'hallucination']: 2
+
+logs/oob_vicuna/AR/AR_ P
+['age', 'improve + prevent', 'character', 'emotions', 'hallucination']: 5
+
+logs/oob_vicuna/AR/AR_ Palm
+['irrelevant', 'record', 'improve + prevent', 'emotions', 'hallucination']: 5
+
+#Average nr penalties: 3.6
