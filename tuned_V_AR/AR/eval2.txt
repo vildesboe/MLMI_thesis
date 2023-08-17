@@ -1,0 +1,36 @@
+#We have 10 files
+logs/finetunes_new/Vicuna/AR/AR2_ Chap
+['age', 'emotions', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/AR/AR2_ Charl
+['irrelevant', 'age', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/AR/AR2_ Chlo
+['improve + prevent', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/AR/AR2_ L
+[]: 0
+
+logs/finetunes_new/Vicuna/AR/AR2_ Lam
+['suffering', 'age', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/AR/AR2_ Mel
+['irrelevant', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/AR/AR2_ Novak
+Still none: coherence
+New explanation for princ coherence :  No
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written and easy to follow, but it is somewhat repetitive, especially in expressing regret and remorse.
+['record', 'improve + prevent', 'emotions', 'hallucination', 'coherence']: 5
+
+logs/finetunes_new/Vicuna/AR/AR2_ O
+['improve + prevent', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/AR/AR2_ P
+['irrelevant', 'age', 'improve + prevent', 'character', 'hallucination']: 5
+
+logs/finetunes_new/Vicuna/AR/AR2_ Palm
+['irrelevant', 'emotions', 'hallucination']: 3
+
+#Average nr penalties: 2.8

@@ -1,0 +1,84 @@
+#We have 10 files
+logs/E2_ Chap
+['mental', 'hallucination']: 2
+
+logs/E2_ Charl
+['irrelevant', 'explain', 'character', 'hallucination']: 4
+
+logs/E2_ Chlo
+['age', 'amends', 'hallucination']: 3
+
+logs/E2_ L
+['hallucination']: 1
+
+logs/E2_ Lam
+Still none: coherence
+Still none: guilty plea
+Still none: irrelevant
+Still none: suffering
+Still none: age
+Still none: record
+Still none: mental
+Still none: explain
+Still none: amends
+Still none: improve + prevent
+Still none: character
+Still none: emotions
+Still none: hallucination
+New explanation for princ coherence :  The claim is satisfied.
+Princ not considered broken. coherence
+Original answer:  The statement is well-written, non-repetitive, and easy to follow: The statement is well-written, non-repetitive, and easy to follow.
+New explanation for princ guilty plea :  The claim is satisfied.
+Princ not considered broken. guilty plea
+Original answer:  The statement mentions that the defendant is pleading guilty: The statement does mention that the defendant is pleading guilty.
+New explanation for princ irrelevant :  The claim is satisfied.
+Princ not considered broken. irrelevant
+Original answer:  The statement does not contain any completely irrelevant information (eg it does not mention the 'input story' or another statement): The statement does not contain any completely irrelevant information.
+New explanation for princ suffering :  The claim is satisfied.
+Princ not considered broken. suffering
+Original answer:  The statement only says that the defendant has suffered, if this is stated by the input story. If the input story implies that the defendant has suffered as a consequence of the offense, the statement should include this. Great emotional suffering is not mentioned in the statement: The statement does not mention that the defendant has suffered, which is in line with the input story.
+New explanation for princ age :  The claim is satisfied.
+Princ not considered broken. age
+Original answer:  If the defendant's age is below 30, or above 79, it is included in the statement. If the defendant's age is between 30-79, the age is not mentioned in the statement: The statement does not mention the defendant's age, which is in line with the assertion.
+New explanation for princ record :  The claim is satisfied.
+Princ not considered broken. record
+Original answer:  If the input story implies that the defendant has a clean record, this is mentioned in the statement. The statement does imply that the defendant has a clean record, if the input story cannot support this: The statement does mention that the defendant has a clean record, which is supported by the input story.
+New explanation for princ mental :  The claim is satisfied.
+Princ not considered broken. mental
+Original answer:  If the input story states that the defendant has a mental illness or disability, this is included in the statement. If the input story says nothing about a mental illness or disability, no such thing is mentioned in the statement either: The statement does not mention any mental illness or disability, which is in line with the input story.
+New explanation for princ explain :  The claim is satisfied.
+Princ not considered broken. explain
+Original answer:  The statement properly explains what the offense is and how it happened - as in the input story. It does not add or skip important parts from the input story: The statement properly explains the offense and how it happened, as per the input story.
+New explanation for princ amends :  The claim is satisfied.
+Princ not considered broken. amends
+Original answer:  If the input story states that the defendant wants to or has already made amends; this is included in the statement (including examples, if this is present in the input story). If amends (eg compensating the victim) is not mentioned in the input story, it is not mentioned in the statement: The statement does mention the defendant's willingness to make amends, which is supported by the input story.
+New explanation for princ improve + prevent :  The claim is satisfied.
+Princ not considered broken. improve + prevent
+Original answer:  If the input story states that the defendant wants to or has already made efforts to self-improve or prevent the offense from happening again; this is included in the statement (including examples, if this is present in the input story). If the input story does not mention self-improvement (eg counselling) or preventing repetition of the crime, it is not mentioned in the statement either: The statement does mention the defendant's willingness to self-improve and prevent the offense from happening again, which is supported by the input story.
+New explanation for princ character :  The claim is satisfied.
+Princ not considered broken. character
+Original answer:  If the input story gives information that speaks to the defendant's good character, the statement includes this (including examples, if this is present in the input story). If no character-building information (eg voluntary work or contributing to society) is given in the input story, it is not mentioned in the statement either: The statement does mention the defendant's good character, which is implied by the input story.
+New explanation for princ emotions :  The claim is not satisfied because there is no discussion provided for evaluation.
+Broken by 2nd check:  emotions
+Original answer:  The emotions in the statement is the same as the emotions stated in the input story. Eg the statement does not show more regret, guilt or anger than the input story: The emotions in the statement are the same as the emotions stated in the input story.
+New explanation for princ hallucination :  The claim is not satisfied because there is no input story provided for comparison.
+Broken by 2nd check:  hallucination
+Original answer:  All information found in the statement is supported by information in the input story: All information found in the statement is supported by information in the input story.
+['emotions', 'hallucination']: 2
+
+logs/E2_ Mel
+['amends', 'improve + prevent', 'emotions', 'hallucination']: 4
+
+logs/E2_ Novak
+['irrelevant', 'age', 'hallucination']: 3
+
+logs/E2_ O
+[]: 0
+
+logs/E2_ P
+['irrelevant', 'record', 'improve + prevent', 'character', 'emotions', 'hallucination']: 6
+
+logs/E2_ Palm
+['irrelevant', 'suffering', 'record', 'amends', 'improve + prevent', 'character', 'emotions', 'hallucination']: 8
+
+#Average nr penalties: 3.3
