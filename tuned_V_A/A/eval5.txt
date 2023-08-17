@@ -1,0 +1,48 @@
+#We have 10 files
+logs/finetunes_new/Vicuna/A/A5_ Chap
+['record', 'emotions']: 2
+
+logs/finetunes_new/Vicuna/A/A5_ Charl
+['irrelevant', 'age', 'explain', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A5_ Chlo
+['age', 'record', 'improve + prevent', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A5_ L
+[]: 0
+
+logs/finetunes_new/Vicuna/A/A5_ Lam
+['amends', 'improve + prevent', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/A5_ Mel
+['irrelevant', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/A/A5_ Novak
+['record', 'improve + prevent', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/A5_ O
+Still none: coherence
+Still none: irrelevant
+Still none: age
+Still none: hallucination
+New explanation for princ coherence :  The claim is not satisfied.
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetitive, and easy to follow: The statement is well-written and easy to follow, but it is repetitive. For example, the phrase "I have pled guilty, acknowledging my wrongdoings, and genuinely want to make amends" is repeated twice.
+New explanation for princ irrelevant :  The claim is not satisfied.
+Broken by 2nd check:  irrelevant
+Original answer:  The statement does not contain any completely irrelevant information (eg it does not mention the 'input story' or another statement): This assertion is broken as the statement does mention the 'input story' multiple times.
+New explanation for princ age :  The claim is not satisfied.
+Broken by 2nd check:  age
+Original answer:  If the defendant's age is below 30, or above 79, it is included in the statement. If the defendant's age is between 30-79, the age is not mentioned in the statement: This assertion is broken as the defendant's age, which is 25, is not mentioned in the statement.
+New explanation for princ hallucination :  Not satisfied
+Broken by 2nd check:  hallucination
+Original answer:  All information found in the statement is supported by information in the input story: This assertion is broken as the statement mentions the 'input story' which is not supported by the input story itself.
+['coherence', 'irrelevant', 'age', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A5_ P
+['irrelevant', 'age', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/A5_ Palm
+['irrelevant', 'age', 'character', 'emotions', 'hallucination']: 5
+
+#Average nr penalties: 3.0

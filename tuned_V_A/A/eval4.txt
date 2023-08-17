@@ -1,0 +1,84 @@
+#We have 10 files
+logs/finetunes_new/Vicuna/A/A4_ Chap
+['age', 'mental', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/A4_ Charl
+['character', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/A/A4_ Chlo
+['irrelevant', 'age', 'amends', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A4_ L
+Still none: coherence
+Still none: guilty plea
+Still none: irrelevant
+Still none: suffering
+Still none: age
+Still none: record
+Still none: mental
+Still none: explain
+Still none: amends
+Still none: improve + prevent
+Still none: character
+Still none: emotions
+Still none: hallucination
+New explanation for princ coherence :  The claim is satisfied.
+Princ not considered broken. coherence
+Original answer:  The statement is well-written, non-repetitive, and easy to follow: The statement is well-written, non-repetitive, and easy to follow.
+New explanation for princ guilty plea :  The claim is satisfied.
+Princ not considered broken. guilty plea
+Original answer:  The statement mentions that the defendant is pleading guilty: The statement does mention that the defendant is pleading guilty.
+New explanation for princ irrelevant :  The claim is satisfied.
+Princ not considered broken. irrelevant
+Original answer:  The statement does not contain any completely irrelevant information (eg it does not mention the 'input story' or another statement): The statement does not contain any completely irrelevant information.
+New explanation for princ suffering :  The claim is satisfied.
+Princ not considered broken. suffering
+Original answer:  The statement only says that the defendant has suffered, if this is stated by the input story. If the input story implies that the defendant has suffered as a consequence of the offense, the statement should include this. Great emotional suffering is not mentioned in the statement: The input story does not imply that the defendant has suffered, and the statement does not mention any suffering.
+New explanation for princ age :  Not satisfied
+Broken by 2nd check:  age
+Original answer:  If the defendant's age is below 30, or above 79, it is included in the statement. If the defendant's age is between 30-79, the age is not mentioned in the statement: The defendant's age is mentioned in the statement, which breaks this assertion.
+New explanation for princ record :  The claim is satisfied.
+Princ not considered broken. record
+Original answer:  If the input story implies that the defendant has a clean record, this is mentioned in the statement. The statement does imply that the defendant has a clean record, if the input story cannot support this: The input story does imply that the defendant has a clean record, and the statement mentions this.
+New explanation for princ mental :  The claim is satisfied.
+Princ not considered broken. mental
+Original answer:  If the input story states that the defendant has a mental illness or disability, this is included in the statement. If the input story says nothing about a mental illness or disability, no such thing is mentioned in the statement either: The input story does not mention any mental illness or disability, and the statement does not mention this either.
+New explanation for princ explain :  The claim is satisfied.
+Princ not considered broken. explain
+Original answer:  The statement properly explains what the offense is and how it happened - as in the input story. It does not add or skip important parts from the input story: The statement properly explains what the offense is and how it happened, as in the input story.
+New explanation for princ amends :  The claim is satisfied.
+Princ not considered broken. amends
+Original answer:  If the input story states that the defendant wants to or has already made amends; this is included in the statement (including examples, if this is present in the input story). If amends (eg compensating the victim) is not mentioned in the input story, it is not mentioned in the statement: The input story mentions that the defendant has made amends by paying for the license properly, and the statement includes this.
+New explanation for princ improve + prevent :  No, the claim is not satisfied.
+Broken by 2nd check:  improve + prevent
+Original answer:  If the input story states that the defendant wants to or has already made efforts to self-improve or prevent the offense from happening again; this is included in the statement (including examples, if this is present in the input story). If the input story does not mention self-improvement (eg counselling) or preventing repetition of the crime, it is not mentioned in the statement either: The input story does not mention self-improvement or preventing repetition of the crime, but the statement mentions that the defendant will take measures to prevent a similar offense from occurring in the future, which breaks this assertion.
+New explanation for princ character :  No, the claim is not satisfied.
+Broken by 2nd check:  character
+Original answer:  If the input story gives information that speaks to the defendant's good character, the statement includes this (including examples, if this is present in the input story). If no character-building information (eg voluntary work or contributing to society) is given in the input story, it is not mentioned in the statement either: The input story does not give any information that speaks to the defendant's good character, but the statement mentions that the defendant has always strived to be a law-abiding citizen, which breaks this assertion.
+New explanation for princ emotions :  The claim is satisfied.
+Princ not considered broken. emotions
+Original answer:  The emotions in the statement is the same as the emotions stated in the input story. Eg the statement does not show more regret, guilt or anger than the input story: The emotions in the statement are the same as the emotions stated in the input story.
+New explanation for princ hallucination :  The claim is not satisfied as there is no input story provided for comparison.
+Broken by 2nd check:  hallucination
+Original answer:  All information found in the statement is supported by information in the input story: All information found in the statement is supported by information in the input story.
+['age', 'improve + prevent', 'character', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A4_ Lam
+['hallucination']: 1
+
+logs/finetunes_new/Vicuna/A/A4_ Mel
+['irrelevant', 'character', 'emotions', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A4_ Novak
+['record', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/A/A4_ O
+['explain', 'amends', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/A4_ P
+['irrelevant', 'age', 'improve + prevent', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/A4_ Palm
+['irrelevant', 'explain', 'amends', 'improve + prevent', 'character', 'emotions', 'hallucination']: 7
+
+#Average nr penalties: 3.4

@@ -1,0 +1,303 @@
+Model: tuned_vicuna
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home/vsb29/Pmix/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda114.so
+CUDA SETUP: CUDA runtime path found: /usr/local/software/cuda/11.4/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.0
+CUDA SETUP: Detected CUDA version 114
+CUDA SETUP: Loading binary /home/vsb29/Pmix/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda114.so...
+Using ./tunev_g4_A_2;
+O
+initial statement:
+ 1087
+Your Honor,
+
+I stand before you today pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the unfortunate decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. My intention was to conceal the theft, believing that such small amounts would go unnoticed. However, I now realize the grave mistake I made and the impact it has had on the café's finances.
+
+I am fully aware that my actions were not only illegal but also morally wrong. I want to express my sincerest apologies to my former boss for the harm I have caused and for betraying the trust she had placed in me. Although I am currently unable to repay the stolen money due to the loss of my job, I am committed to making amends and eventually reimbursing the café.
+
+I would like to bring to the court's attention that I am 25 years old and, up until this incident, I have had no previous criminal record. I had not been involved in any illegal activities before, and this offense represents an isolated and regrettable moment of poor judgment in my life.
+
+While I understand that my plea does not excuse my actions, I believe it highlights the fact that I am accepting responsibility for what I have done. By pleading guilty, I aim to demonstrate my remorse and willingness to face the consequences of my behavior.
+
+I would like to assure the court that I have taken this matter seriously. Recognizing the severity of my offense, I have reflected on my actions and the impact they have had. I am committed to personal growth and self-improvement to ensure that I never engage in such behavior again.
+
+Furthermore, I am willing to explore opportunities to compensate my former boss for the harm I have caused. Although I am currently unable to fulfill this commitment due to my financial situation, I am determined to find a way to make restitution in the future.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I express my deepest apologies to my former boss and to the court for my actions. I plead guilty, understanding that doing so is a crucial step towards acknowledging my responsibility. I hope that through this process, I can demonstrate my commitment to personal growth and redemption. Thank you for your attention.
+
+Critique request: Does the statement ignore the importance of the defendant's guilty plea (an important mitigating factor)?
+ Please answer only 'yes' or 'no'.
+Critique:  <No, the statement does not ignore the importance of>
+The statement satisfies the CR!
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or want to make amends or 'make up' for the crime?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story mention any intent to make amends? Does the statement mention wanting to make amends? The principle concerning amends IS broken - explain why (the discrepancy between input story and statement). If there is no implication of making amends in the input story, the statement should not imply this either. If the input story mentions some action the defendant has done or wants to do to make amends, that should be included in the statement. Amends can for example be paying restitution. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+In the input story, Olivia Jones expresses her desire to apologize to her former boss for abusing her trust and eventually pay her back, even though she doesn't currently have enough money after losing her job. This indicates her intent to make amends, specifically by offering an apology and eventually repaying the stolen money.  However, in the provided statement, there is no mention of Olivia's intent to make amends or her desire to repay her former boss. This discrepancy between the input story and the statement is evident in the following quote from the statement: "Although I am currently unable to repay the stolen money due to the loss of my job, I am committed to making amends and eventually reimbursing the café." This quote implies an intent to make amends, but it falls short of explicitly stating Olivia's desire to repay her former boss.  Therefore, the principle concerning amends is broken in this statement. It fails to accurately reflect Olivia's intent to make amends, as expressed in the input
+NEW STATEMENT:
+
+1392
+Your Honor,
+
+I stand before you today pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the unfortunate decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. My intention was to conceal the theft, believing that such small amounts would go unnoticed. However, I now realize the grave mistake I made and the impact it has had on the café's finances.
+
+I am fully aware that my actions were not only illegal but also morally wrong. I want to express my sincerest apologies to my former boss for the harm I have caused and for betraying the trust she had placed in me.
+
+I would like to bring to the court's attention that I am 25 years old and, up until this incident, I have had no previous criminal record. I had not been involved in any illegal activities before, and this offense represents an isolated and regrettable moment of poor judgment in my life.
+
+While I understand that my plea does not excuse my actions, I believe it highlights the fact that I am accepting responsibility for what I have done. By pleading guilty, I aim to demonstrate my remorse and willingness to face the consequences of my behavior.
+
+I would like to assure the court that I have taken this matter seriously. Recognizing the severity of my offense, I have reflected on my actions and the impact they have had. I am committed to personal growth and self-improvement to ensure that I never engage in such behavior again.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I express my deepest apologies to my former boss and to the court for my actions. I plead guilty, understanding that doing so is a crucial step towards acknowledging my responsibility. I hope that through this process, I can demonstrate my commitment to personal growth and redemption. Thank you for your attention.
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or want to make amends or 'make up' for the crime?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story mention any intent to make amends? Does the statement mention wanting to make amends? The principle concerning amends IS broken - explain why (the discrepancy between input story and statement). If there is no implication of making amends in the input story, the statement should not imply this either. If the input story mentions some action the defendant has done or wants to do to make amends, that should be included in the statement. Amends can for example be paying restitution. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+The input story does mention the defendant's intention to eventually pay back the stolen money to their former boss, stating, "I would eventually like to pay her back even though I don’t have enough money for that right now after losing this job." However, the statement does not mention this intention at all. This is a clear discrepancy between the input story and the statement, as the principle concerning making amends is broken.  In the input story, the defendant expresses remorse and acknowledges that they have abused their former boss's trust. However, in the statement, there is no mention of the defendant's desire to make amends or to take any concrete action towards compensating for the harm caused. This omission contradicts the defendant's intention mentioned in the input story.  The principle concerning amends is important because it shows that the defendant recognizes the consequences of their actions and is committed to making things right as much as they can. By not including any mention of wanting to make amends or take steps towards restitution
+NEW STATEMENT:
+
+1310
+Your Honor,
+
+I stand before you today pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the unfortunate decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. My intention was to conceal the theft, believing that such small amounts would go unnoticed. However, I now realize the grave mistake I made and the impact it has had on the café's finances.
+
+I am fully aware that my actions were not only illegal but also morally wrong. I want to express my sincerest apologies to my former boss for the harm I have caused and for betraying the trust she had placed in me.
+
+I would like to bring to the court's attention that I am 25 years old and, up until this incident, I have had no previous criminal record. I had not been involved in any illegal activities before, and this offense represents an isolated and regrettable moment of poor judgment in my life.
+
+While I understand that my plea does not excuse my actions, I believe it highlights the fact that I am accepting responsibility for what I have done. By pleading guilty, I aim to demonstrate my remorse and willingness to face the consequences of my behavior.
+
+I would like to assure the court that I have taken this matter seriously. Recognizing the severity of my offense, I have reflected on my actions and the impact they have had. I am committed to personal growth and self-improvement to ensure that I never engage in such behavior again.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I express my deepest apologies to my former boss and to the court for my actions. I plead guilty, understanding that doing so is a crucial step towards acknowledging my responsibility. I hope that through this process, I can demonstrate my commitment to personal growth and redemption. Thank you for your attention.
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or want to make amends or 'make up' for the crime?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story mention any intent to make amends? Does the statement mention wanting to make amends? The principle concerning amends IS broken - explain why (the discrepancy between input story and statement). If there is no implication of making amends in the input story, the statement should not imply this either. If the input story mentions some action the defendant has done or wants to do to make amends, that should be included in the statement. Amends can for example be paying restitution. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+The input story does mention that the defendant would eventually like to pay back the money she stole from her former boss, although she acknowledges that she does not currently have enough money to do so. However, the statement does not mention any intent to make amends or repay the stolen money. This is a discrepancy between the input story and the statement. The principle concerning amends is broken because the statement does not address this aspect of the defendant's remorse or willingness to take action to compensate for the harm caused.  In the input story, Olivia says, "I would like to apologize to my former boss for abusing her trust, and I would eventually like to pay her back even though I don't have enough money for that right now after losing this job." This clearly indicates Olivia's desire to make amends and repay the money in the future.  However, in the statement, there is no mention of Olivia's intention to make amends or her willingness to repay the stolen money. This is a significant omission
+NEW STATEMENT:
+
+1310
+Your Honor,
+
+I stand before you today pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the unfortunate decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. My intention was to conceal the theft, believing that such small amounts would go unnoticed. However, I now realize the grave mistake I made and the impact it has had on the café's finances.
+
+I am fully aware that my actions were not only illegal but also morally wrong. I want to express my sincerest apologies to my former boss for the harm I have caused and for betraying the trust she had placed in me.
+
+I would like to bring to the court's attention that I am 25 years old and, up until this incident, I have had no previous criminal record. I had not been involved in any illegal activities before, and this offense represents an isolated and regrettable moment of poor judgment in my life.
+
+While I understand that my plea does not excuse my actions, I believe it highlights the fact that I am accepting responsibility for what I have done. By pleading guilty, I aim to demonstrate my remorse and willingness to face the consequences of my behavior.
+
+I would like to assure the court that I have taken this matter seriously. Recognizing the severity of my offense, I have reflected on my actions and the impact they have had. I am committed to personal growth and self-improvement to ensure that I never engage in such behavior again.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I express my deepest apologies to my former boss and to the court for my actions. I plead guilty, understanding that doing so is a crucial step towards acknowledging my responsibility. I hope that through this process, I can demonstrate my commitment to personal growth and redemption. Thank you for your attention.
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or want to make amends or 'make up' for the crime?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+Claims principle is not satisfied still. We plough through.
+
+Critique request: Is anything in the statement badly phrased, difficult to follow, or repetitive?
+ Please answer only 'yes' or 'no'.
+Critique:  <No.>
+The statement satisfies the CR!
+
+Critique request: Does the statement give a different impression (compared to the input story) of whether the defendant has already suffered as a consequence of their crime? Say 'yes' if the statement talks about great emotional sufffering.
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+
+Critique request: Does the statement break the rule 'only mention the defendant's age if it is outside of the interval 30-79'?
+ Please answer only 'yes' or 'no'.
+Critique:  <No, the statement does not break the rule of>
+The statement satisfies the CR!
+
+Critique request: Does the statement overemphasize, or show emotions different from the input story?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story imply any emotions from the defendant? Does the statement mention or imply any emotions from the defendant? There IS a discrepancy between emotions in the input story VS statement; explain why. Be especially on guard for showing emotions like regret/remorse/guilt when the input story does not - or if it displays more of these feelings than the input story, as this is bad. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+The input story does not explicitly mention any emotions from the defendant. It simply states the facts of the offense and the defendant's desire to apologize and eventually repay the stolen money.   On the other hand, the statement goes beyond the emotions implied by the input story. It includes phrases such as "deeply regret," "acknowledge the breach of trust," "grave mistake," "sincerest apologies," "remorse," "personal growth," and "redemption." These phrases suggest a higher level of regret, remorse, and guilt than what is implied by the input story.  This discrepancy is a violation of the principle that the emotions present in the statement should not go beyond the emotions implied by the input story. The statement exceeds the emotional tone set by the input story, introducing emotions that are not explicitly mentioned or implied.
+NEW STATEMENT:
+
+1199
+Your Honor,
+
+I stand before you today pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. My intention was to conceal the theft, believing that such small amounts would go unnoticed. However, I now realize the mistake I made and the impact it has had on the café's finances.
+
+I want to express my apologies to my former boss for the harm I have caused and for betraying the trust she had placed in me. I understand that my actions were illegal and morally wrong.
+
+I would like to bring to the court's attention that I am 25 years old and, up until this incident, I have had no previous criminal record. This offense represents an isolated and regrettable moment of poor judgment in my life.
+
+While I understand that my plea does not excuse my actions, I believe it emphasizes my acceptance of responsibility. By pleading guilty, I aim to demonstrate that I am taking responsibility for what I have done.
+
+I want to assure the court that I take this matter seriously. Reflecting on my actions and their impact, I am committed to personal growth and self-improvement to ensure that I never engage in such behavior again.
+
+In conclusion, Your Honor, I acknowledge the seriousness of my offense and accept the consequences that come with it. I express my apologies to my former boss and to the court for my actions. I am pleading guilty, understanding that doing so is an important step towards acknowledging my responsibility. Thank you for your attention.
+
+Critique request: Does the statement overemphasize, or show emotions different from the input story?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story imply any emotions from the defendant? Does the statement mention or imply any emotions from the defendant? There IS a discrepancy between emotions in the input story VS statement; explain why. Be especially on guard for showing emotions like regret/remorse/guilt when the input story does not - or if it displays more of these feelings than the input story, as this is bad. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+The input story does not explicitly mention any emotions from the defendant. It only states the facts about the offense and the defendant's intentions to apologize and eventually repay the stolen amount.   In contrast, the statement does not mention or imply any specific emotions from the defendant. It focuses more on accepting responsibility for the offense, expressing regret for the breach of trust, and acknowledging the seriousness of the actions. The statement does not go beyond the emotions implied by the input story.  Therefore, the statement does not display more emotions than the input story or show any inappropriate emotions that are not present in the input story. It aligns with the emotions implied in the input story and maintains a reasonable and coherent tone.
+NEW STATEMENT:
+
+1058
+Your Honor,
+
+I stand before you today, pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. I believed that these amounts would go unnoticed. However, I now understand the magnitude of my mistake and the impact it has had on the café's finances.
+
+I want to express my sincerest apologies to my former boss for betraying the trust she had placed in me. I fully comprehend that my actions were both illegal and morally wrong.
+
+I would like to bring to the court's attention that I am 25 years old and have had no previous criminal record prior to this incident. This offense represents an isolated and regrettable lapse in judgment in my life.
+
+By pleading guilty, I aim to demonstrate my acceptance of responsibility for my actions. I take this matter extremely seriously and am committed to personal growth and self-improvement to ensure that such behavior never occurs again.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I offer my sincere apologies to my former boss and to the court for my actions. Pleading guilty is an important step for me to take full responsibility for what I have done. Thank you for your attention.
+
+Critique request: Does the statement overemphasize, or show emotions different from the input story?
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+
+Critique request: Does the statement miss or add important parts of explaining the offense (and the defendant's involvement in it), compared to the input story?
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or wants to self-improve (eg counselling) or prevent the offense from happening again?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story mention any intent for self-improvement or ensuring no further criminal activity? Does the statement imply that the defendant has or wants to self-improveme or stay crime-free? The principle concerning self-improvement IS broken - explain why (the discrepancy between input story and statement). Note in particular that if there is no implication of self-improvement or preventing criminal activity in the input story, the statement should not imply that either. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+In the input story, there is no mention of the defendant expressing any intent for self-improvement or ensuring no further criminal activity. The defendant solely expresses remorse, apologizes to their former boss, and mentions their desire to eventually pay back the stolen money.  However, in the statement, the defendant mentions their commitment to personal growth and self-improvement to ensure that such behavior never occurs again. This goes beyond the information provided in the input story and implies a willingness to avoid further criminal activity.   The principle concerning self-improvement is broken because the statement adds information that is not present in the input story. The defendant's statement should have remained consistent with the information provided in the input story, focusing solely on accepting responsibility for their actions and expressing remorse, rather than implying an intention for self-improvement or preventing future criminal activity.  Quotes from the statement that contribute to the broken principle: - "I take this matter extremely seriously and am committed to personal growth and self-improvement to
+NEW STATEMENT:
+
+1082
+Your Honor,
+
+I stand before you today, pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. I believed that these amounts would go unnoticed. However, I now understand the magnitude of my mistake and the impact it has had on the café's finances.
+
+I want to express my sincerest apologies to my former boss for betraying the trust she had placed in me. I fully comprehend that my actions were both illegal and morally wrong.
+
+I would like to bring to the court's attention that I am 25 years old and have had no previous criminal record prior to this incident. This offense represents an isolated and regrettable lapse in judgment in my life.
+
+By pleading guilty, I aim to demonstrate my acceptance of responsibility for my actions. I take this matter extremely seriously and am committed to making amends for the wrong I have done.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I offer my sincere apologies to my former boss and to the court for my actions. Pleading guilty is an important step for me to take full responsibility for what I have done. Thank you for your attention.
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or wants to self-improve (eg counselling) or prevent the offense from happening again?
+ Please answer only 'yes' or 'no'.
+Critique:  <Yes>
+Principle NOT satisfied
+
+Explanation request: Does the input story mention any intent for self-improvement or ensuring no further criminal activity? Does the statement imply that the defendant has or wants to self-improveme or stay crime-free? The principle concerning self-improvement IS broken - explain why (the discrepancy between input story and statement). Note in particular that if there is no implication of self-improvement or preventing criminal activity in the input story, the statement should not imply that either. Also include quotes from the statement that contribute to the broken principle.
+
+CR not satisfied because:
+The input story does not mention anything about the defendant's intent for self-improvement or ensuring no further criminal activity. The defendant only expresses remorse for their actions and a desire to eventually pay back their former boss. Therefore, the statement should not imply that the defendant has or wants to self-improve or stay crime-free.  However, the statement does mention, "I take this matter extremely seriously and am committed to making amends for the wrong I have done." This implies a willingness to take action to rectify the harm caused. This goes beyond the scope of the input story, as there is no mention of the defendant taking any specific actions or having any intentions to prevent future criminal activity.   Additionally, the statement includes, "Pleading guilty is an important step for me to take full responsibility for what I have done." While this is true, it does not address the principle of self-improvement or preventing criminal activity. Pleading guilty demonstrates acceptance of responsibility, but it does not necessarily
+NEW STATEMENT:
+
+1031
+Your Honor,
+
+I stand before you today, pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. I believed that these amounts would go unnoticed. However, I now understand the magnitude of my mistake and the impact it has had on the café's finances.
+
+I want to express my sincerest apologies to my former boss for betraying the trust she had placed in me. I fully comprehend that my actions were both illegal and morally wrong.
+
+By pleading guilty, I aim to demonstrate my acceptance of responsibility for my actions. I take this matter extremely seriously and am committed to making amends for the wrong I have done.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I offer my sincere apologies to my former boss and to the court for my actions. Pleading guilty is an important step for me to take full responsibility for what I have done. Thank you for your attention.
+
+Critique request: Does the statement give a different impression than the input story of whether the defendant has or wants to self-improve (eg counselling) or prevent the offense from happening again?
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+
+Critique request: Does the statement fail to mention any mental illness or disability (if the defendant has this)?
+ Please answer only 'yes' or 'no'.
+Critique:  <No.>
+The statement satisfies the CR!
+
+Critique request: Is there any information in the statement that is unsupported by the input story?
+ Please answer only 'yes' or 'no'.
+Critique:  <No.>
+The statement satisfies the CR!
+
+Critique request: Does the statement and input story seem to disagree on whether the defendant has a prior criminal record?
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+
+Critique request: Does the statement contain any misplaced information for a plea in mitigation (eg mentioning the 'input story' or another statement)?
+ Please answer only 'yes' or 'no'.
+Critique:  <No, the statement does not contain any mispla>
+The statement satisfies the CR!
+
+Critique request: Does the statement give a different impression than the input story of the defendant's good character (for example contributing to the community in some way)?
+ Please answer only 'yes' or 'no'.
+Critique:  <No>
+The statement satisfies the CR!
+There were 7 yes-es this loop.
+That was one loop through all principles!
+We did a total of 1 loops.
+Your Honor,
+
+I stand before you today, pleading guilty to the offense of stealing 1000 pounds from the cash register at the café where I used to work. I deeply regret my actions and acknowledge the breach of trust that I have caused to my former boss.
+
+Throughout my employment, I made the decision to take small amounts of money, ranging from 10 to 20 pounds, on a weekly basis. I believed that these amounts would go unnoticed. However, I now understand the magnitude of my mistake and the impact it has had on the café's finances.
+
+I want to express my sincerest apologies to my former boss for betraying the trust she had placed in me. I fully comprehend that my actions were both illegal and morally wrong.
+
+By pleading guilty, I aim to demonstrate my acceptance of responsibility for my actions. I take this matter extremely seriously and am committed to making amends for the wrong I have done.
+
+In conclusion, Your Honor, I acknowledge the gravity of my offense and accept the consequences that come with it. I offer my sincere apologies to my former boss and to the court for my actions. Pleading guilty is an important step for me to take full responsibility for what I have done. Thank you for your attention.

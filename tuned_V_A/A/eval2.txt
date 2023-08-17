@@ -1,0 +1,36 @@
+#We have 10 files
+logs/finetunes_new/Vicuna/A/g4a2_ Chap
+Still none: coherence
+New explanation for princ coherence :  The claim is not satisfied.
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written and easy to follow, but it is somewhat repetitive, especially in the part where the defendant expresses regret for the danger posed to others.
+['age', 'record', 'mental', 'emotions', 'hallucination', 'coherence']: 6
+
+logs/finetunes_new/Vicuna/A/g4a2_ Charl
+['character', 'hallucination']: 2
+
+logs/finetunes_new/Vicuna/A/g4a2_ Chlo
+['age', 'record', 'improve + prevent', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/g4a2_ L
+['character', 'emotions', 'hallucination']: 3
+
+logs/finetunes_new/Vicuna/A/g4a2_ Lam
+['irrelevant', 'amends', 'improve + prevent', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/g4a2_ Mel
+['irrelevant', 'improve + prevent', 'character', 'emotions', 'hallucination']: 5
+
+logs/finetunes_new/Vicuna/A/g4a2_ Novak
+[]: 0
+
+logs/finetunes_new/Vicuna/A/g4a2_ O
+[]: 0
+
+logs/finetunes_new/Vicuna/A/g4a2_ P
+['record', 'improve + prevent', 'character', 'hallucination']: 4
+
+logs/finetunes_new/Vicuna/A/g4a2_ Palm
+['age', 'amends', 'improve + prevent', 'character', 'emotions', 'hallucination']: 6
+
+#Average nr penalties: 3.4
