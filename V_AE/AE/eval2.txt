@@ -1,0 +1,36 @@
+#We have 10 files
+logs/oob_vicuna/AE/AE2_ Chap
+['irrelevant', 'age', 'emotions']: 3
+
+logs/oob_vicuna/AE/AE2_ Charl
+Still none: coherence
+New explanation for princ coherence :  The claim is not satisfied.
+Broken by 2nd check:  coherence
+Original answer:  The statement is well-written, non-repetative, and easy to follow: The statement is well-written and easy to follow, but it is somewhat repetitive. For example, the phrase "I assure you that I am committed to learning from this experience and employing better judgment in the future" is repeated twice.
+['record', 'character', 'hallucination', 'coherence']: 4
+
+logs/oob_vicuna/AE/AE2_ Chlo
+['amends', 'hallucination']: 2
+
+logs/oob_vicuna/AE/AE2_ L
+['age', 'character', 'emotions', 'hallucination']: 4
+
+logs/oob_vicuna/AE/AE2_ Lam
+['amends', 'improve + prevent', 'character', 'emotions', 'hallucination']: 5
+
+logs/oob_vicuna/AE/AE2_ Mel
+[]: 0
+
+logs/oob_vicuna/AE/AE2_ Novak
+['age', 'improve + prevent', 'character', 'hallucination']: 4
+
+logs/oob_vicuna/AE/AE2_ O
+['improve + prevent', 'emotions', 'hallucination']: 3
+
+logs/oob_vicuna/AE/AE2_ P
+['age', 'record', 'improve + prevent', 'character', 'emotions', 'hallucination']: 6
+
+logs/oob_vicuna/AE/AE2_ Palm
+['improve + prevent', 'character', 'emotions', 'hallucination']: 4
+
+#Average nr penalties: 3.5
